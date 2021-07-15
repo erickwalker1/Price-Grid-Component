@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: hsl(218, 22%, 67%);
+  height: 100vh;
+  padding: 8%;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* <!-- Container --> */
+
+.container {
+  display: flex;
+  max-width: 18.75rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.one {
+  min-height: 16rem;
+  border-radius: 5px 5px 0 0;
+  background-color: white;
+}
+
+.two {
+  min-height: 12rem;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.three {
+  padding-left: 1.5rem;
+  min-height: 14rem;
+  border-radius: 0 0 5px 5px;
+  background-color: hsl(179, 56%, 52%);
+}
+
+/*  <!-- Typography --> */
+
+.one-heading {
+  color: hsl(179, 62%, 43%);
+}
+
+.one-text {
+  color: hsl(71, 73%, 54%);
+}
+
+/*   <!-- Buttons -->  */
+
+.btn-warning {
+  border-color: hsl(71, 73%, 54%);
+  background-color: hsl(71, 73%, 54%);
+}
+
+/*   <!-- Lists -->  */
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+/*   <!-- Links -->  */
+
+a {
+  color: hsl(179, 62%, 43%);
+  text-decoration: none;
+}
