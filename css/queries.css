@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) {
+  main {
+    margin: 0 auto;
+    max-width: 36rem;
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "one one"
+      "two three";
+  }
+
+  .container {
+    min-width: 100%;
+  }
+
+  .one {
+    grid-area: one;
+    max-height: 14.5rem;
+  }
+
+  .two {
+    grid-area: two;
+  }
+
+  .three {
+    grid-area: three;
+    padding-top: 1.5rem;
+    border-radius: 0 0 5px 0;
+  }
+
+  .one,
+  .two,
+  .three {
+    padding-left: 2rem;
+  }
+
+  .one-text {
+    max-width: 90%;
+  }
+
+  .btn {
+    max-width: 85%;
+  }
+}
